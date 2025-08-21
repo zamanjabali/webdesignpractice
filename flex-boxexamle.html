@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>flex box example</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 20px;
+            background-color: lightslategray;
+            flex-wrap: wrap;
+        }
+        .box{
+            background-color: lightsalmon;
+            color: white;
+            flex-grow: 1;
+            text-align: center;
+            border-radius: 15px;
+            font-size: 25px;
+
+        }
+        h1{
+            text-align: center;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+     <h1>flex box demo</h1>
+<div class="container">
+    <div class="box">box 1</div>
+     <div class="box">box 2</div>
+      <div class="box">box 3</div>
+       <div class="box">box 4</div>
+</div>
+</body>
+</html>
